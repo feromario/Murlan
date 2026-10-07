@@ -18,6 +18,9 @@ public class Deck {
                 cards.add(new Card(rank, suit));
             }
         }
+        // add jokers
+        cards.add(new Card(Rank.JOKER_BLACK, Suit.NONE));
+        cards.add(new Card(Rank.JOKER_RED, Suit.NONE));
         // after list has been filled, shuffle it so Deck is init as shuffled
         shuffle();
     }

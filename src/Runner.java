@@ -7,7 +7,7 @@
 
 // *** classes and methods
 // card: suit, rank
-// deck: list of cards, shuffle(), drawCard()
+// deck: list of cards, shuffle(), distributeDeck()
 // hand: list of cards
 // player: score, playCard()
 // runner: turns, win condition, card distribution

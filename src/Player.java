@@ -16,5 +16,9 @@ public abstract class Player {
         return hand;
     }
 
+    public void drawCard(Card card) {
+        hand.add(card);
+    }
+
 
 }

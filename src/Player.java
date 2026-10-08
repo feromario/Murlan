@@ -20,5 +20,9 @@ public abstract class Player {
         hand.add(card);
     }
 
+    public void sortHand() {
+        Collections.sort(hand);
+    }
+
 
 }

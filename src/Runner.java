@@ -9,4 +9,14 @@ public class Runner {
         this.players = players;
         this.deck = new Deck();
     }
+
+    public void playRound() {
+        // deal deck
+        deck.dealDeck(players);
+
+        // sort player hands
+        for (Player player : players) {
+            //player.sort
+        }
+    }
 }
